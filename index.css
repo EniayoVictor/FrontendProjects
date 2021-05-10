@@ -222,8 +222,9 @@ body, html{
     }
     #designSection{
         background: none;
-        height: 90%;
+        height: 80%;
         margin: 4% !important;
+        
     }
     #designSection div{
         width: 100% !important;
@@ -250,7 +251,9 @@ body, html{
         height: 30% !important;
     }
     #designSection2{
+        height: 70%;
         margin: 4%;
+        margin-bottom: 1%;
         background-position: center;
         background-size: 35%;
         background: none;

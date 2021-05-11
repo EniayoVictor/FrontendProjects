@@ -233,6 +233,7 @@ body, html{
         border-radius: 0px !important;
         background-position: center;
         background-repeat: repeat;
+        height: 40%;
     }
     #stateSection img{
         display: none;
@@ -242,7 +243,7 @@ body, html{
         display: block;
         text-align: center;
         margin-right: 8%;
-        margin-top: 15%;
+        margin-top: 8%;
         float: center !important;
     }
     #designSection2{

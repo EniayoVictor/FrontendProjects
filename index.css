@@ -246,7 +246,8 @@ body, html{
         float: center !important;
     }
     #designSection2{
-        height: 90%;
+        height: 80%;
+        margin-bottom: 2%;
     }
     #footer{
         height: 50%;

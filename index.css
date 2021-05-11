@@ -295,7 +295,7 @@ body, html{
         border-top-right-radius: 50px;
         background-size: 100%;
         height: 45%;
-        padding: 3%;
+        /* padding: 3%; */
     }
     #stateSection img{
         display: none;

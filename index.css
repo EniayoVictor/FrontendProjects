@@ -87,7 +87,7 @@ body, html{
 /* Style for the main PAGE CONTENT */
 #designSection{
         text-align: center;
-        margin: 8%;
+        margin: 5%;
         margin-top: 5%;
         height: 65%;
         background-image: url(Images/illustration-editor-desktop.svg);
@@ -203,6 +203,7 @@ body, html{
     #navBar{
         padding: 5%;
         height: 80%;
+        border-radius: 0px;
     }
     #navBar img{
         width: 20%;
@@ -220,7 +221,36 @@ body, html{
     #navBar button{
         margin-top: 15%;
     }
-    #
+    #designSection{
+        height: 100%;
+        background-size: 40%;
+        margin-bottom: 20% !important;
+    }
+    #designSection div{
+        width: 60% !important;
+    }
+    #stateSection{
+        width: 100% !important;
+        border-radius: 0px !important;
+        background-position: center;
+    }
+    #stateSection img{
+        display: none;
+    }
+    #stateSection div{
+        width: 90% !important;
+        display: block;
+        text-align: center;
+        margin-right: 8%;
+        margin-top: 15%;
+        float: center !important;
+    }
+    #designSection2{
+        height: 90%;
+    }
+    #footer{
+        height: 50%;
+    }
 }
 @media (max-width: 380px) {
     #navBar{

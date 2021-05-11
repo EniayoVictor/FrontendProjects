@@ -11,7 +11,7 @@ body, html{
 }
 /* Scrollbar Style */
 ::-webkit-scrollbar{
-    width: 3px;
+    width: 1.5px;
 }
 ::-webkit-scrollbar-thumb{
     background: hsl(237, 23%, 32%);
@@ -199,16 +199,39 @@ body, html{
       padding: 10% !important;
        
 }
-
-@media (max-width: 380px) {
+@media only screen and (max-width: 480px) {
     #navBar{
         padding: 5%;
-        height: 90%;
+        height: 80%;
     }
     #navBar img{
         width: 20%;
     }
     #navBar h1{
+        margin-top: 20%;
+        font-size: 70px;
+    }
+    #navBar p{
+        font-size: 15px;
+    }
+    #navItems a{
+        display: none;
+    }
+    #navBar button{
+        margin-top: 15%;
+    }
+    #
+}
+@media (max-width: 380px) {
+    #navBar{
+        padding: 5%;
+        height: 85%;
+    }
+    #navBar img{
+        width: 20%;
+    }
+    #navBar h1{
+        margin-top: 30%;
         font-size: 70px;
     }
     #navBar p{
@@ -223,8 +246,7 @@ body, html{
     #designSection{
         background: none;
         height: 100%;
-        margin: 4% !important;
-        
+        margin: 4% !important;   
     }
     #designSection div{
         width: 96% !important;
